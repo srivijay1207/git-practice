@@ -21,11 +21,11 @@ echo "pls login with root user"
 exit 10
 fi
 
-yum install mysqllll -y
+yum install mysql -y
 
 
-VALIDATE $? "installed Mysql.........@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+VALIDATE $1 "installed Mysql.........@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 
 yum install nginx -y
 
-VALIDATE $? "installed NGINx .....!!!!!!!!!!!!!!!!!!!!"
+VALIDATE $1 "installed NGINx .....!!!!!!!!!!!!!!!!!!!!"
