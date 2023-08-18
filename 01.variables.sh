@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if($USERID -ne 0); then
+if[$USERID -ne 0]; then
 
 echo "pls login with root user"
 exit 10
@@ -12,7 +12,7 @@ fi
 yum install mysql -y 
 
 
-if($? -ne 0); then
+if[$? -ne 0]; then
 echo " mysql installed Failed .."
 exit 1
 else
