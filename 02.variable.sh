@@ -8,7 +8,7 @@ echo "pls login with root user"
 exit 10
 fi
 
-yum install mysql -y
+yum remove mysql -y
 
 if [ $? -ne 0 ] ; then
 
@@ -20,7 +20,7 @@ else
 
 fi
 
-yum install nginx -y
+yum remove nginx -y
 
 if [ $? -ne 0 ] ; then
 
