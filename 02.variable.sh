@@ -21,7 +21,7 @@ echo "pls login with root user"
 exit 10
 fi
 
-yum install mysql -y
+yum install mysqllll -y
 
 
 VALIDATE $? "installed Mysql.........@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
