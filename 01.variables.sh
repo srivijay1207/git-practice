@@ -7,8 +7,6 @@ if($userid -ne 0); then
 echo "pls login with root user"
 exit 10
 
-else
-    echo "Root user"
 fi
 
 yum install mysql -y 
