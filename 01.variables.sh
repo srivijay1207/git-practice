@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if[$USERID -ne 0]; then
+if[$USERID -ne 0]
 
 echo "pls login with root user"
 exit 10
