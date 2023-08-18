@@ -2,31 +2,32 @@
 
 USERID=$(id -u)
 
-VALIDATE(){
+# VALIDATE(){
 
-   if [ $? -ne 0 ] ; then
+#    if [ $? -ne 0 ] ; then
 
-    echo "install failed "
+#     echo "install failed "
 
-    exit 10
-    else 
+#     exit 10
+#     else 
 
-    echo " installed success...!"
-    fi 
-}
+#     echo " installed success...!"
+#     fi 
+# }
+
 if [ $USERID -ne 0 ]
 then
 echo "pls login with root user"
 exit 10
 fi
 
-yum install mysql -y
+yum remove mysql -y
 
 VALIDATE $1
-echo " installed Mysql"
+echo " uninstalled Mysql"
 
-yum install nginx -y
+yum remove nginx -y
 
 VALIDATE $1
 
-echo "NGINX installed success"
+echo "NGINX iuninstalled success"
