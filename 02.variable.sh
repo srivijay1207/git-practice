@@ -4,7 +4,7 @@ USERID=$(id -u)
 
 VALIDATE(){
 
-   if [ $1 -ne 0 ] ; then
+   if [ $? -ne 0 ] ; then
 
     echo "failed $2 "
 
@@ -24,7 +24,7 @@ fi
 yum install mysql -y
 
 
-VALIDATE $1 "installed Mysql.........@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+VALIDATE $1"installed Mysql.........@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 
 yum install nginx -y
 
