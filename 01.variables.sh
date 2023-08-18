@@ -9,14 +9,14 @@ exit 10
 
 fi
 
-yum install mysql -y 
+yum remove mysql -y 
 
 
-if [ $? -ne 0 ]; then
-echo " mysql installed Failed .."
-exit 1
-else
-echo "mysql installed successful"
-fi
+# if [ $? -ne 0 ]; then
+# echo " mysql installed Failed .."
+# exit 1
+# else
+# echo "mysql installed successful"
+# fi
 
 
