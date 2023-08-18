@@ -11,7 +11,7 @@ VALIDATE(){
     exit 10
     else 
 
-    echo "success $2"
+    echo "Done $2 "
     fi 
 }
 
@@ -21,11 +21,11 @@ echo "pls login with root user"
 exit 10
 fi
 
-yum remove mysql -y
+yum install mysql -y
 
 
 VALIDATE $1"installed Mysql.........@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 
-yum remove nginx -y
+yum install nginx -y
 
 VALIDATE $1 "installed NGINx .....!!!!!!!!!!!!!!!!!!!!"
