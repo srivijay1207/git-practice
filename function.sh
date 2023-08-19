@@ -6,3 +6,4 @@ Hi (){
 }
 
 echo "i am vijay"
+Hi
