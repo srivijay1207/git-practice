@@ -1,7 +1,7 @@
 #!/bin/bash
 
 Hello (){
-    echo " welcome to Devops"
+    echo " welcome to Devops:$1"
 
 }
 
