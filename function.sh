@@ -5,5 +5,5 @@ Hello (){
 
 }
 
-echo "i am vijay"
- Hello 
+#echo "i am vijay"
+ Hello $1 $2
