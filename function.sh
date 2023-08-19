@@ -1,9 +1,9 @@
 #!/bin/bash
 
-Hi (){
+Hello (){
     echo " welcome to Devops"
 
 }
 
-echo "i am vijay:$1 $2"
-Hi $1 $2
+echo "i am vijay"
+ Hello $1 $2
