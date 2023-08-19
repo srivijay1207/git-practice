@@ -5,5 +5,5 @@ Hi (){
 
 }
 
-echo "i am vijay"
-Hi  $1 $2
+echo "i am vijay:$1 $2"
+Hi $1 $2
