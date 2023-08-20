@@ -18,7 +18,7 @@ ramesh
 veera
 :wq!
 
-grep ramesh
+grep $i
 
 if [ $i -ne 0 ]; then
 
