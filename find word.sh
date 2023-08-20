@@ -1,6 +1,6 @@
 #!/bin/bash
 FILE=$(touch b.txt)
-PRINT=$(cat b.txt)
+PRINT=$(cat >> rama is god b.txt)
 if [ $? -ne 0 ]; then
 
 echo "file not created pls create afile"
