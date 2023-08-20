@@ -12,11 +12,11 @@
 
 USERID=$(id -u)
 R="\e[31m"
-R="\e[32m"
+G="\e[32m"
 N="\e[0m"
 
 if [ $USERID -ne 0 ]; then
-    echo -e "${R}..pls login with root user?"
+    echo -e "${R}..pls login with root user?:${N}"
     exit 1
 fi
 
