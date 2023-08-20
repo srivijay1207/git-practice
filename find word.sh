@@ -10,6 +10,13 @@ else
 echo "file created:give the word to find "
 
 fi
+vi a.txt
+
+ramesh
+suresh
+ramesh
+veera
+:wq!
 
 grep $i
 
