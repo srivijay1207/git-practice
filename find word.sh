@@ -1,13 +1,13 @@
 #!/bin/bash
-FILE=$(touch a.txt)
-
+FILE=$(touch b.txt)
+PRINT=$(cat b.txt)
 if [ $? -ne 0 ]; then
 
 echo "file not created pls create afile"
 
 else
 
-echo "file created:give the word to find "
+echo "$PRINT "
 
 fi
 
