@@ -1,5 +1,5 @@
 #!/bin/bash
-touch a.txt
+FILE=$(touch a.txt)
 
 if [ $? -ne 0 ]; then
 
@@ -10,23 +10,23 @@ else
 echo "file created:give the word to find "
 
 fi
-vi a.txt
 
-ramesh
-suresh
-ramesh
-veera
-:wq!
+# vi a.txt
+# ramesh
+# suresh
+# ramesh
+# veera
+# :wq!
 
-grep $i
+# grep $i
 
-if [ $i -ne 0 ]; then
+# if [ $i -ne 0 ]; then
 
-echo "word not found in file "
+# echo "word not found in file "
 
-else
+# else
 
-echo " print $i "
+# echo " print $i "
 
-fi
+# fi
 
