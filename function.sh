@@ -25,5 +25,5 @@ fi
 if [ $? -ne 0 ]; then
     echo "installation Mysql failed"
 else
-    echo "instalation Mysql is success....!!!"
+    echo -e "${G} instalation Mysql is success....!!!"
 fi
