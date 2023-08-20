@@ -9,9 +9,9 @@ if [ -e "$f_name" ]; then
 
 echo "file '$f_name' is created"
 cat "$f_name"
+grep $1
 else
 
 echo "file not created"
 fi
 
-echo "$(f_name) | grep -i w "
