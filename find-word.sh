@@ -4,7 +4,7 @@
 file_name="vijay.txt"
 
 # Text to write to the file
-content="Hello, this is some content that we are writing to a file."
+content="Hello, i am working with Srinu."
 
 # Use echo to write the content to the file
 echo "$content" > "$file_name"
