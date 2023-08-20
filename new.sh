@@ -14,4 +14,4 @@ else
 echo "file not created"
 fi
 
-echo "$f_name" | grep -i w
+echo "$(f_name) | grep -i w "
